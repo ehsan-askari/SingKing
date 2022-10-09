@@ -14,6 +14,15 @@
 		48C5F8BE28F315CF0013EF53 /* SingKingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8BD28F315CF0013EF53 /* SingKingTests.swift */; };
 		48C5F8C828F315CF0013EF53 /* SingKingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8C728F315CF0013EF53 /* SingKingUITests.swift */; };
 		48C5F8CA28F315CF0013EF53 /* SingKingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8C928F315CF0013EF53 /* SingKingUITestsLaunchTests.swift */; };
+		48C5F8D728F319C90013EF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F8D628F319C90013EF53 /* LaunchScreen.storyboard */; };
+		48C5F8D928F320550013EF53 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F8D828F320550013EF53 /* Localizable.strings */; };
+		48C5F8DF28F320C50013EF53 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F8DE28F320C50013EF53 /* Colors.xcassets */; };
+		48C5F8E228F320F70013EF53 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8E128F320F70013EF53 /* API.swift */; };
+		48C5F8E428F321020013EF53 /* AppString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8E328F321020013EF53 /* AppString.swift */; };
+		48C5F8E628F3210B0013EF53 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8E528F3210B0013EF53 /* AppColor.swift */; };
+		48C5F8E828F321130013EF53 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8E728F321130013EF53 /* AppImage.swift */; };
+		48C5F8EB28F3213C0013EF53 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8EA28F3213C0013EF53 /* APIManager.swift */; };
+		48C5F8ED28F3217B0013EF53 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F8EC28F3217B0013EF53 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		48C5F8C328F315CF0013EF53 /* SingKingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingKingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C5F8C728F315CF0013EF53 /* SingKingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingKingUITests.swift; sourceTree = "<group>"; };
 		48C5F8C928F315CF0013EF53 /* SingKingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingKingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48C5F8D628F319C90013EF53 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48C5F8D828F320550013EF53 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		48C5F8DE28F320C50013EF53 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		48C5F8E128F320F70013EF53 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		48C5F8E328F321020013EF53 /* AppString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppString.swift; sourceTree = "<group>"; };
+		48C5F8E528F3210B0013EF53 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		48C5F8E728F321130013EF53 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		48C5F8EA28F3213C0013EF53 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		48C5F8EC28F3217B0013EF53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 				48C5F8AB28F315CC0013EF53 /* SingKing */,
 				48C5F8BC28F315CF0013EF53 /* SingKingTests */,
 				48C5F8C628F315CF0013EF53 /* SingKingUITests */,
+				48C5F8EC28F3217B0013EF53 /* README.md */,
 				48C5F8AA28F315CC0013EF53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +113,15 @@
 		48C5F8AB28F315CC0013EF53 /* SingKing */ = {
 			isa = PBXGroup;
 			children = (
+				48C5F8DA28F3207D0013EF53 /* Models */,
+				48C5F8DB28F320850013EF53 /* ViewModels */,
+				48C5F8DC28F3208F0013EF53 /* Views */,
+				48C5F8DD28F320980013EF53 /* Helpers */,
 				48C5F8AC28F315CC0013EF53 /* SingKingApp.swift */,
-				48C5F8AE28F315CC0013EF53 /* ContentView.swift */,
 				48C5F8B028F315CF0013EF53 /* Assets.xcassets */,
+				48C5F8DE28F320C50013EF53 /* Colors.xcassets */,
+				48C5F8D828F320550013EF53 /* Localizable.strings */,
+				48C5F8D628F319C90013EF53 /* LaunchScreen.storyboard */,
 				48C5F8B228F315CF0013EF53 /* Preview Content */,
 			);
 			path = SingKing;
@@ -125,6 +150,56 @@
 				48C5F8C928F315CF0013EF53 /* SingKingUITestsLaunchTests.swift */,
 			);
 			path = SingKingUITests;
+			sourceTree = "<group>";
+		};
+		48C5F8DA28F3207D0013EF53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48C5F8DB28F320850013EF53 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		48C5F8DC28F3208F0013EF53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48C5F8AE28F315CC0013EF53 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48C5F8DD28F320980013EF53 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				48C5F8E028F320E60013EF53 /* Constants */,
+				48C5F8E928F3211E0013EF53 /* Extensiones */,
+				48C5F8EA28F3213C0013EF53 /* APIManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		48C5F8E028F320E60013EF53 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				48C5F8E128F320F70013EF53 /* API.swift */,
+				48C5F8E328F321020013EF53 /* AppString.swift */,
+				48C5F8E528F3210B0013EF53 /* AppColor.swift */,
+				48C5F8E728F321130013EF53 /* AppImage.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		48C5F8E928F3211E0013EF53 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensiones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C5F8ED28F3217B0013EF53 /* README.md in Resources */,
+				48C5F8DF28F320C50013EF53 /* Colors.xcassets in Resources */,
+				48C5F8D728F319C90013EF53 /* LaunchScreen.storyboard in Resources */,
+				48C5F8D928F320550013EF53 /* Localizable.strings in Resources */,
 				48C5F8B428F315CF0013EF53 /* Preview Assets.xcassets in Resources */,
 				48C5F8B128F315CF0013EF53 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +337,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C5F8AF28F315CC0013EF53 /* ContentView.swift in Sources */,
+				48C5F8E628F3210B0013EF53 /* AppColor.swift in Sources */,
+				48C5F8E228F320F70013EF53 /* API.swift in Sources */,
+				48C5F8E428F321020013EF53 /* AppString.swift in Sources */,
 				48C5F8AD28F315CC0013EF53 /* SingKingApp.swift in Sources */,
+				48C5F8E828F321130013EF53 /* AppImage.swift in Sources */,
+				48C5F8EB28F3213C0013EF53 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +507,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +538,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
