@@ -8,6 +8,13 @@
 import Foundation
 
 enum AppImage {
+    
     static let appIcon = "AppIcon"
     static let typography = "Typography"
+    
+    enum System {
+        static let person = "person.circle.fill"
+        static let game = "gamecontroller.fill"
+    }
+    
 }

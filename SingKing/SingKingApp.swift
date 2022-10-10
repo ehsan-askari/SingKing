@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SingKingApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+    
 }

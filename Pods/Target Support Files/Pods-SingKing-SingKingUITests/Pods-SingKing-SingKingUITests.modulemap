@@ -1,0 +1,6 @@
+framework module Pods_SingKing_SingKingUITests {
+  umbrella header "Pods-SingKing-SingKingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

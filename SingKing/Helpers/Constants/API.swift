@@ -18,6 +18,7 @@ enum API {
     static let defaultHeaders = ["Content-Type": "application/json"]
     
     enum Endpoint {
-        static let ad = "/characters"
+        static let characters = "/characters"
+        static let randomCharacter = "/character/random"
     }
 }

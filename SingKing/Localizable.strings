@@ -7,3 +7,15 @@
 */
 
 "singKing" = "SingKing";
+"information" = "Information";
+"noConnection" = "No Connection!";
+"userNotFound" = "User could not be found!";
+"unknownError" = "Unknown error!";
+"charactersTitle" = "Breaking Bad Characters";
+"noResults" = "No Results";
+"characterGame" = "Character Game";
+"guessName" = "Guess the name of the character...";
+"submit" = "Submit";
+"correct" = "Correct! :)";
+"incorrect" = "Incorrect! :(";
+"next" = "Next";

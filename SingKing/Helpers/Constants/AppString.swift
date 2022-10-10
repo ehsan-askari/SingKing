@@ -10,6 +10,18 @@ import SwiftUI
 enum AppString: String {
     
     case singKing
+    case information
+    case noConnection
+    case userNotFound
+    case unknownError
+    case charactersTitle
+    case noResults
+    case characterGame
+    case guessName
+    case submit
+    case correct
+    case incorrect
+    case next
     
     var key: LocalizedStringKey {
         return LocalizedStringKey(self.rawValue)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30873FF0C6B23402067C1D9B /* Pods_SingKing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF982777A1E322600F5B38 /* Pods_SingKing.framework */; };
 		48C5F8AD28F315CC0013EF53 /* SingKingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8AC28F315CC0013EF53 /* SingKingApp.swift */; };
 		48C5F8AF28F315CC0013EF53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8AE28F315CC0013EF53 /* ContentView.swift */; };
 		48C5F8B128F315CF0013EF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F8B028F315CF0013EF53 /* Assets.xcassets */; };
@@ -23,6 +24,16 @@
 		48C5F8E828F321130013EF53 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8E728F321130013EF53 /* AppImage.swift */; };
 		48C5F8EB28F3213C0013EF53 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8EA28F3213C0013EF53 /* APIManager.swift */; };
 		48C5F8ED28F3217B0013EF53 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F8EC28F3217B0013EF53 /* README.md */; };
+		48C5F8EF28F325B00013EF53 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8EE28F325B00013EF53 /* CharactersView.swift */; };
+		48C5F8F128F326280013EF53 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8F028F326280013EF53 /* Character.swift */; };
+		48C5F8F328F327B60013EF53 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8F228F327B60013EF53 /* CharactersViewModel.swift */; };
+		48C5F8F528F32C9D0013EF53 /* WebImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8F428F32C9D0013EF53 /* WebImageExtension.swift */; };
+		48C5F8F728F36F910013EF53 /* CharacterGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8F628F36F910013EF53 /* CharacterGameView.swift */; };
+		48C5F8F928F36FC70013EF53 /* CharacterGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8F828F36FC70013EF53 /* CharacterGameViewModel.swift */; };
+		48C5F8FB28F3FD130013EF53 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8FA28F3FD130013EF53 /* StringExtension.swift */; };
+		48C5F8FE28F3FE4C0013EF53 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8FD28F3FE4C0013EF53 /* CharacterView.swift */; };
+		75E37975E14827B9FE0DD57D /* Pods_SingKingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B326575BDD894D606A3C152 /* Pods_SingKingTests.framework */; };
+		894CEC6D372D5A6B5A085206 /* Pods_SingKing_SingKingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BA0379D0C6706EEF03C99A /* Pods_SingKing_SingKingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +73,23 @@
 		48C5F8E728F321130013EF53 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
 		48C5F8EA28F3213C0013EF53 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		48C5F8EC28F3217B0013EF53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		48C5F8EE28F325B00013EF53 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		48C5F8F028F326280013EF53 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		48C5F8F228F327B60013EF53 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		48C5F8F428F32C9D0013EF53 /* WebImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageExtension.swift; sourceTree = "<group>"; };
+		48C5F8F628F36F910013EF53 /* CharacterGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGameView.swift; sourceTree = "<group>"; };
+		48C5F8F828F36FC70013EF53 /* CharacterGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGameViewModel.swift; sourceTree = "<group>"; };
+		48C5F8FA28F3FD130013EF53 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		48C5F8FD28F3FE4C0013EF53 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		5B326575BDD894D606A3C152 /* Pods_SingKingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingKingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CDB31AA5D0AE7207F4453 /* Pods-SingKingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKingTests.release.xcconfig"; path = "Target Support Files/Pods-SingKingTests/Pods-SingKingTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DBD93D24575D9D3894AA9DF /* Pods-SingKing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKing.release.xcconfig"; path = "Target Support Files/Pods-SingKing/Pods-SingKing.release.xcconfig"; sourceTree = "<group>"; };
+		740B9AF34EBD3DF667C03D2C /* Pods-SingKing-SingKingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKing-SingKingUITests.release.xcconfig"; path = "Target Support Files/Pods-SingKing-SingKingUITests/Pods-SingKing-SingKingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		993762005F4FA3B5BE4D5DCF /* Pods-SingKing-SingKingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKing-SingKingUITests.debug.xcconfig"; path = "Target Support Files/Pods-SingKing-SingKingUITests/Pods-SingKing-SingKingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AAA77E39A8B8BB176A59C56 /* Pods-SingKing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKing.debug.xcconfig"; path = "Target Support Files/Pods-SingKing/Pods-SingKing.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BC368DC6DD1EFB52C8670E /* Pods-SingKingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKingTests.debug.xcconfig"; path = "Target Support Files/Pods-SingKingTests/Pods-SingKingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4BA0379D0C6706EEF03C99A /* Pods_SingKing_SingKingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingKing_SingKingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF982777A1E322600F5B38 /* Pods_SingKing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingKing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30873FF0C6B23402067C1D9B /* Pods_SingKing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E37975E14827B9FE0DD57D /* Pods_SingKingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +113,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894CEC6D372D5A6B5A085206 /* Pods_SingKing_SingKingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4585C54DC92D38A8996E661B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AAA77E39A8B8BB176A59C56 /* Pods-SingKing.debug.xcconfig */,
+				6DBD93D24575D9D3894AA9DF /* Pods-SingKing.release.xcconfig */,
+				993762005F4FA3B5BE4D5DCF /* Pods-SingKing-SingKingUITests.debug.xcconfig */,
+				740B9AF34EBD3DF667C03D2C /* Pods-SingKing-SingKingUITests.release.xcconfig */,
+				A6BC368DC6DD1EFB52C8670E /* Pods-SingKingTests.debug.xcconfig */,
+				5F3CDB31AA5D0AE7207F4453 /* Pods-SingKingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		48C5F8A028F315CC0013EF53 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +141,8 @@
 				48C5F8C628F315CF0013EF53 /* SingKingUITests */,
 				48C5F8EC28F3217B0013EF53 /* README.md */,
 				48C5F8AA28F315CC0013EF53 /* Products */,
+				4585C54DC92D38A8996E661B /* Pods */,
+				F0B2FDDF71920122AAC44A03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +164,7 @@
 				48C5F8DC28F3208F0013EF53 /* Views */,
 				48C5F8DD28F320980013EF53 /* Helpers */,
 				48C5F8AC28F315CC0013EF53 /* SingKingApp.swift */,
+				48C5F8AE28F315CC0013EF53 /* ContentView.swift */,
 				48C5F8B028F315CF0013EF53 /* Assets.xcassets */,
 				48C5F8DE28F320C50013EF53 /* Colors.xcassets */,
 				48C5F8D828F320550013EF53 /* Localizable.strings */,
@@ -155,6 +202,7 @@
 		48C5F8DA28F3207D0013EF53 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				48C5F8F028F326280013EF53 /* Character.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +210,8 @@
 		48C5F8DB28F320850013EF53 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				48C5F8F228F327B60013EF53 /* CharactersViewModel.swift */,
+				48C5F8F828F36FC70013EF53 /* CharacterGameViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -169,7 +219,8 @@
 		48C5F8DC28F3208F0013EF53 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				48C5F8AE28F315CC0013EF53 /* ContentView.swift */,
+				48C5F8FC28F3FE0C0013EF53 /* Characters */,
+				48C5F8F628F36F910013EF53 /* CharacterGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,8 +249,29 @@
 		48C5F8E928F3211E0013EF53 /* Extensiones */ = {
 			isa = PBXGroup;
 			children = (
+				48C5F8FA28F3FD130013EF53 /* StringExtension.swift */,
+				48C5F8F428F32C9D0013EF53 /* WebImageExtension.swift */,
 			);
 			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		48C5F8FC28F3FE0C0013EF53 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				48C5F8FD28F3FE4C0013EF53 /* CharacterView.swift */,
+				48C5F8EE28F325B00013EF53 /* CharactersView.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		F0B2FDDF71920122AAC44A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF982777A1E322600F5B38 /* Pods_SingKing.framework */,
+				E4BA0379D0C6706EEF03C99A /* Pods_SingKing_SingKingUITests.framework */,
+				5B326575BDD894D606A3C152 /* Pods_SingKingTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C5F8CD28F315CF0013EF53 /* Build configuration list for PBXNativeTarget "SingKing" */;
 			buildPhases = (
+				36D94341AEF3E4FFE781C90C /* [CP] Check Pods Manifest.lock */,
 				48C5F8A528F315CC0013EF53 /* Sources */,
 				48C5F8A628F315CC0013EF53 /* Frameworks */,
 				48C5F8A728F315CC0013EF53 /* Resources */,
+				807199708A30E160A78CA93F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C5F8D028F315CF0013EF53 /* Build configuration list for PBXNativeTarget "SingKingTests" */;
 			buildPhases = (
+				2BEEEDF09AA8F94F198755AD /* [CP] Check Pods Manifest.lock */,
 				48C5F8B528F315CF0013EF53 /* Sources */,
 				48C5F8B628F315CF0013EF53 /* Frameworks */,
 				48C5F8B728F315CF0013EF53 /* Resources */,
@@ -244,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C5F8D328F315CF0013EF53 /* Build configuration list for PBXNativeTarget "SingKingUITests" */;
 			buildPhases = (
+				E8D514CB8CC3A7C25142750B /* [CP] Check Pods Manifest.lock */,
 				48C5F8BF28F315CF0013EF53 /* Sources */,
 				48C5F8C028F315CF0013EF53 /* Frameworks */,
 				48C5F8C128F315CF0013EF53 /* Resources */,
+				1E6676C527B8CD693D45FF62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,17 +408,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6676C527B8CD693D45FF62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingKing-SingKingUITests/Pods-SingKing-SingKingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingKing-SingKingUITests/Pods-SingKing-SingKingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingKing-SingKingUITests/Pods-SingKing-SingKingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BEEEDF09AA8F94F198755AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingKingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D94341AEF3E4FFE781C90C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingKing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807199708A30E160A78CA93F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingKing/Pods-SingKing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingKing/Pods-SingKing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingKing/Pods-SingKing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D514CB8CC3A7C25142750B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingKing-SingKingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48C5F8A528F315CC0013EF53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C5F8F128F326280013EF53 /* Character.swift in Sources */,
+				48C5F8F728F36F910013EF53 /* CharacterGameView.swift in Sources */,
 				48C5F8AF28F315CC0013EF53 /* ContentView.swift in Sources */,
 				48C5F8E628F3210B0013EF53 /* AppColor.swift in Sources */,
+				48C5F8EF28F325B00013EF53 /* CharactersView.swift in Sources */,
 				48C5F8E228F320F70013EF53 /* API.swift in Sources */,
+				48C5F8F928F36FC70013EF53 /* CharacterGameViewModel.swift in Sources */,
+				48C5F8F328F327B60013EF53 /* CharactersViewModel.swift in Sources */,
 				48C5F8E428F321020013EF53 /* AppString.swift in Sources */,
+				48C5F8FB28F3FD130013EF53 /* StringExtension.swift in Sources */,
+				48C5F8FE28F3FE4C0013EF53 /* CharacterView.swift in Sources */,
 				48C5F8AD28F315CC0013EF53 /* SingKingApp.swift in Sources */,
 				48C5F8E828F321130013EF53 /* AppImage.swift in Sources */,
+				48C5F8F528F32C9D0013EF53 /* WebImageExtension.swift in Sources */,
 				48C5F8EB28F3213C0013EF53 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +683,7 @@
 		};
 		48C5F8CE28F315CF0013EF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAA77E39A8B8BB176A59C56 /* Pods-SingKing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -526,6 +715,7 @@
 		};
 		48C5F8CF28F315CF0013EF53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBD93D24575D9D3894AA9DF /* Pods-SingKing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,6 +747,7 @@
 		};
 		48C5F8D128F315CF0013EF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC368DC6DD1EFB52C8670E /* Pods-SingKingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -577,6 +768,7 @@
 		};
 		48C5F8D228F315CF0013EF53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3CDB31AA5D0AE7207F4453 /* Pods-SingKingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -597,6 +789,7 @@
 		};
 		48C5F8D428F315CF0013EF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993762005F4FA3B5BE4D5DCF /* Pods-SingKing-SingKingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -615,6 +808,7 @@
 		};
 		48C5F8D528F315CF0013EF53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740B9AF34EBD3DF667C03D2C /* Pods-SingKing-SingKingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
