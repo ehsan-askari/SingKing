@@ -24,6 +24,23 @@ final class SingKingTests: XCTestCase {
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        
+        let expectation = self.expectation(description: "should happen and retrive data")
+        
+        APIManager.request(endpoint: API.Endpoint.characters, httpMethod: .get) { (result) in
+            switch result {
+            case .success(let data):
+                if let characters = try? JSONDecoder().decode([Character].self, from: data) {
+                    XCTAssertNotNil(characters, "response: \(characters)")
+                }
+            case .failure(let error):
+                XCTAssert(false, "\(error)")
+            }
+            expectation.fulfill()
+        }
+        
+        wait(for: [expectation], timeout: 120)
+        
     }
 
     func testPerformanceExample() throws {
