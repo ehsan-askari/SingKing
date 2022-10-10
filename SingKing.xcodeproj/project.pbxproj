@@ -32,8 +32,6 @@
 		48C5F8F928F36FC70013EF53 /* CharacterGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8F828F36FC70013EF53 /* CharacterGameViewModel.swift */; };
 		48C5F8FB28F3FD130013EF53 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8FA28F3FD130013EF53 /* StringExtension.swift */; };
 		48C5F8FE28F3FE4C0013EF53 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5F8FD28F3FE4C0013EF53 /* CharacterView.swift */; };
-		48C5F90228F40F970013EF53 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F90028F40F970013EF53 /* 2.png */; };
-		48C5F90328F40F970013EF53 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C5F90128F40F970013EF53 /* 1.png */; };
 		75E37975E14827B9FE0DD57D /* Pods_SingKingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B326575BDD894D606A3C152 /* Pods_SingKingTests.framework */; };
 		894CEC6D372D5A6B5A085206 /* Pods_SingKing_SingKingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BA0379D0C6706EEF03C99A /* Pods_SingKing_SingKingUITests.framework */; };
 /* End PBXBuildFile section */
@@ -83,8 +81,8 @@
 		48C5F8F828F36FC70013EF53 /* CharacterGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGameViewModel.swift; sourceTree = "<group>"; };
 		48C5F8FA28F3FD130013EF53 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		48C5F8FD28F3FE4C0013EF53 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
-		48C5F90028F40F970013EF53 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../2.png; sourceTree = "<group>"; };
-		48C5F90128F40F970013EF53 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../1.png; sourceTree = "<group>"; };
+		48C5F90B28F411CC0013EF53 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		48C5F90C28F411CC0013EF53 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		5B326575BDD894D606A3C152 /* Pods_SingKingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingKingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3CDB31AA5D0AE7207F4453 /* Pods-SingKingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKingTests.release.xcconfig"; path = "Target Support Files/Pods-SingKingTests/Pods-SingKingTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DBD93D24575D9D3894AA9DF /* Pods-SingKing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingKing.release.xcconfig"; path = "Target Support Files/Pods-SingKing/Pods-SingKing.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,7 +138,7 @@
 		48C5F8A028F315CC0013EF53 = {
 			isa = PBXGroup;
 			children = (
-				48C5F8FF28F40F820013EF53 /* Screenshots */,
+				48C5F90A28F411C80013EF53 /* Screenshots */,
 				48C5F8AB28F315CC0013EF53 /* SingKing */,
 				48C5F8BC28F315CF0013EF53 /* SingKingTests */,
 				48C5F8C628F315CF0013EF53 /* SingKingUITests */,
@@ -269,11 +267,11 @@
 			path = Characters;
 			sourceTree = "<group>";
 		};
-		48C5F8FF28F40F820013EF53 /* Screenshots */ = {
+		48C5F90A28F411C80013EF53 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				48C5F90128F40F970013EF53 /* 1.png */,
-				48C5F90028F40F970013EF53 /* 2.png */,
+				48C5F90C28F411CC0013EF53 /* 1.png */,
+				48C5F90B28F411CC0013EF53 /* 2.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -398,9 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C5F8ED28F3217B0013EF53 /* README.md in Resources */,
-				48C5F90328F40F970013EF53 /* 1.png in Resources */,
 				48C5F8DF28F320C50013EF53 /* Colors.xcassets in Resources */,
-				48C5F90228F40F970013EF53 /* 2.png in Resources */,
 				48C5F8D728F319C90013EF53 /* LaunchScreen.storyboard in Resources */,
 				48C5F8D928F320550013EF53 /* Localizable.strings in Resources */,
 				48C5F8B428F315CF0013EF53 /* Preview Assets.xcassets in Resources */,

@@ -1,3 +1,3 @@
 # SingKing
-![Alt text](Screenshots/1.png "")
-![Alt text](Screenshots/1.png "")
+![Screenshot](Screenshots/1.png)
+![Screenshot](Screenshots/2.png)
